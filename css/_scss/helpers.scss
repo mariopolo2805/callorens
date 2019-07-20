@@ -1,0 +1,76 @@
+@import './_scss/mixins';
+
+// Fles
+.flex {
+  @include display-flex;
+}
+
+.flex-column {
+  @include display-flex;
+  @include flex-direction(column);
+}
+
+.flex-grow {
+  @include flex-grow(1);
+}
+
+.flex-row {
+  @include display-flex;
+  @include flex-direction(row);
+  @include justify-content(center);
+  @include align-items(center);
+
+  &.space-between {
+    @include justify-content(space-between);
+  }
+
+  &.space-evenly {
+    @include justify-content(space-evenly);
+  }
+
+  &.flex-end {
+    @include justify-content(flex-end);
+  }
+}
+
+// Margin & Padding
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-margin--bottom {
+  margin-bottom: 0 !important;
+}
+
+.margin {
+  margin: 12px !important;
+}
+
+.margin-30 {
+  margin: 30px !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+// Colors
+.primary {
+  background-color: color-base("primary") !important;
+  &.lighten-1 {
+    background-color: rgba(color-base("primary"), 0.8) !important;
+  }
+  &-text {
+    color: color-base("primary") !important;
+  }
+}
+
+.secondary {
+  background-color: color-base("secondary") !important;
+  &.lighten-1 {
+    background-color: rgba(color-base("secondary"), 0.8) !important;
+  }
+  &-text {
+    color: color-base("secondary") !important;
+  }
+}

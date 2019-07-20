@@ -1,0 +1,90 @@
+@import './_scss/variables';
+
+body,
+html {
+  height: 100%;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+  @include display-flex;
+  @include flex-direction(column);
+}
+
+.navbar-fixed {
+  a {
+    font-size: 1.4rem;
+  }
+}
+
+main {
+  @include display-flex;
+  @include flex-direction(column);
+  @include flex(1 0 auto);
+}
+
+#include-terms {
+  padding: 0 10px;
+}
+
+nav ul a {
+  padding: 0 12px;
+}
+
+button {
+  font-family: 'Exo 2', sans-serif;
+}
+
+.brand-logo {
+  margin-top: 5px;
+  overflow: hidden;
+
+  @media #{$medium-and-up} {
+    margin-top: 8px;
+  }
+
+  .img {
+    height: 55px;
+    display: block;
+    margin-bottom: -10px;
+
+    @media #{$medium-and-up} {
+      height: 60px;
+    }
+  }
+}
+
+.logo {
+  width: 90%;
+
+  @media #{$medium-and-up} {
+    width: 65%;
+  }
+}
+
+nav .sidenav-trigger {
+  margin: 0 10px;
+}
+
+.background-mask {
+  background-size: cover;
+  background-position: center center;
+  background-color: rgba(color("primary", "base"), 0.20);
+}
+
+.footer {
+  @include display-flex;
+  @include flex-direction(row);
+  @include justify-content(space-between);
+  @include flex(1 0 auto);
+
+  @media #{$large-and-up} {
+    @include justify-content(flex-end);
+  }
+}
+
+#include-terms {
+  ol {
+    padding: 0 20px;
+  }
+}
