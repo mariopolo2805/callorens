@@ -1,8 +1,11 @@
 plugins:
   - jekyll-assets
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
 
 exclude:      ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js', 'config.ru', 'vendor']
+
+languages: ["es", "en", "val"]
 
 sass:
   sass_dir:   css/_scss
