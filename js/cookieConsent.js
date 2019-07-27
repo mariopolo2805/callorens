@@ -4,11 +4,11 @@ var cookieConsent = function() {
       window.cookieconsent.initialise({
         "palette": {
           "popup": {
-            "background": "#FABADA",
+            "background": "#009688",
           },
           "button": {
-            "background": "#AAAAAA",
-            "text": "#ffffff"
+            "background": "#eceff1",
+            "text": "#4db6ac"
           },
         },
         "content": {
