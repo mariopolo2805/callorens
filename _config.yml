@@ -24,6 +24,8 @@ assets:
     - '*.png'
     - '*.jpg'
     - '*.svg'
+    - '*.ttf'
+    - '*.woff'
 
   sources:
     - css
@@ -38,9 +40,9 @@ markdown:     kramdown
 # Texts
 
 main:
-  title:      'Callorens'
-  titleTag:   'Callorens'
-  keywords:   'callorens almuerzos asados restaurante catadau'
+  title:      'Ca LLorens'
+  titleTag:   'Ca LLorens'
+  keywords:   'ca llorens callorens almuerzos paella asados bar restaurante catadau'
 
 terms:
   title:      'Aviso Legal'

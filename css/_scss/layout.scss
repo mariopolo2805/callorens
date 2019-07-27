@@ -11,12 +11,24 @@ body {
   @include flex-direction(column);
 }
 
+.i18n-flag img {
+  height: 14px;
+}
 .navbar-fixed {
   a {
     font-size: 1.4rem;
   }
-  .i18n-flag img {
-    height: 14px;
+}
+.sidenav {
+  .languages {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    margin: 0 10px;
+    .i18n-flag {
+      margin: 0 10px;
+    }
   }
 }
 
@@ -71,7 +83,7 @@ nav .sidenav-trigger {
 .background-mask {
   background-size: cover;
   background-position: center center;
-  background-color: rgba(color("primary", "base"), 0.40);
+  background-color: rgba(color("primary", "base"), 0.6);
 }
 
 .footer {
