@@ -5,7 +5,7 @@ plugins:
 
 exclude:      ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js', 'config.ru', 'vendor']
 
-languages: ["es", "en", "val"]
+languages:    ["es", "en", "val"]
 
 sass:
   sass_dir:   css/_scss
@@ -40,8 +40,8 @@ markdown:     kramdown
 # Texts
 
 main:
-  title:      'Ca LLorens'
-  titleTag:   'Ca LLorens'
+  title:      'Ca Llorens'
+  titleTag:   'Ca Llorens'
   keywords:   'ca llorens callorens almuerzos paella asados bar restaurante catadau'
 
 terms:
