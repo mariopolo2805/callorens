@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/en/contacto</loc>
+<loc>/en/contacto</loc>
 </url>
 <url>
-<loc>http://localhost:4000/en/cookies/</loc>
+<loc>/en/cookies/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/en/brasas</loc>
+<loc>/en/brasas</loc>
 </url>
 <url>
-<loc>http://localhost:4000/en/</loc>
+<loc>/en/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/en/almuerzos</loc>
+<loc>/en/almuerzos</loc>
 </url>
 <url>
-<loc>http://localhost:4000/en/carta</loc>
+<loc>/en/carta</loc>
 </url>
 </urlset>
