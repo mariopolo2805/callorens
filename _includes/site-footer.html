@@ -9,15 +9,22 @@
   <div class="container">
     <br>
     <div class="row flex-row">
-      <p class="secondary-text footer">
-        <a href="#terms" class="secondary-text modal-trigger waves-effect waves-light">{{site.terms.title}}</a>
-        <span class="hide-on-med-and-down">&nbsp;-&nbsp;</span>
-        <a class="secondary-text" href="{{site.baseurl}}/cookies" target="_blank">{{site.cookies.title}}</a>
-      </p>
+      <div class="secondary-text footer">
+        <div class="hide-on-med-and-down">
+          <a class="i18n-flag" href="/"><img src="/images/es.png" alt=""></a>
+          <a class="i18n-flag" href="/val"><img src="/images/val.png" alt=""></a>
+          <a class="i18n-flag" href="/en"><img src="/images/en.png" alt=""></a>
+        </div>
+        <div class="footer-links">
+          <a href="#terms" class="secondary-text modal-trigger waves-effect waves-light">{{site.terms.title}}</a>
+          <span class="hide-on-med-and-down">&nbsp;-&nbsp;</span>
+          <a class="secondary-text" href="{{site.baseurl}}/cookies" target="_blank">{{site.cookies.title}}</a>
+        </div>
+      </div>
       <!-- Modal Structure -->
       <div id="terms" class="modal">
         <div class="modal-content text-justify">
-          <h5 class="secondary-text">
+          <h5 class="primary-text">
             <span>{{site.terms.title}}</span>
             <a href="#!" class="modal-action modal-close">
               <i class="close material-icons right">close</i>

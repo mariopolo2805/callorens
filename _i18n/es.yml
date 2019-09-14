@@ -2,3 +2,13 @@
 home:
   title: "Bar Restaurante Ca Llorens"
   subtitle: "Nuestra diferencia está en las brasas"
+
+lunch:
+  title: "Almuerzos"
+  subtitle: "Los mejores bocatas están aquí"
+  description: "Uno de nuestros puntos fuertes. Ven a disfrutar de nuestra variedad de bocatas y almuerzos. Cantidad y calidad a partes iguales. Llámanos y encarga tus almuerzos."
+
+ember:
+  title: "Brasas"
+  subtitle: "Una jugosa carne, un tierno pescado, o una insuperable paella"
+  description: "Si quieres un fin de semana diferente, ven a disfrutar de las mejores ascuas. Carnes, pescados a la brasa y paella al fuego de leña. Llámanos y reserva lo que más te apetezca."
