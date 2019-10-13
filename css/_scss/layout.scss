@@ -142,3 +142,57 @@ nav .sidenav-trigger {
   height: 600px;
   perspective: 700px;
 }
+
+.menu {
+  &__title p {
+    font-size: 2rem;
+    text-decoration: underline;
+
+    @media #{$medium-and-up} {
+      font-size: 2.8rem;
+    }
+  }
+
+  &__subtitle {
+    &--left {
+      margin-bottom: 0.3rem;
+      text-align: left;
+    }
+
+    p {
+      font-size: 1.6rem;
+      text-decoration: underline;
+      margin-bottom: 0.5rem;
+
+      @media #{$medium-and-up} {
+        font-size: 1.8rem;
+      }
+    }
+  }
+
+  &__item {
+    @include display-flex;
+    @include flex-direction(row);
+    @include justify-content(space-between);
+    margin-bottom: 0.3rem;
+
+    span {
+      @media #{$medium-and-up} {
+        font-size: 1.6rem;
+      }
+
+      &:first-child {
+        text-align: left;
+        margin-right: 1rem;
+      }
+
+      &:last-child {
+        white-space: nowrap;
+      }
+    }
+  }
+
+  &__space {
+    margin: 0.8rem 0;
+  }
+}
