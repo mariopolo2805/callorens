@@ -76,9 +76,10 @@
 }
 
 // Icons
-a[href^="mailto:"].icon, a[href^="tel:"].icon {
+a.icon {
   @include display-flex;
   @include align-items(center);
+  width: fit-content;
 }
 a[href^="mailto:"].icon:before {
   content: url("/images/email.svg");
@@ -87,6 +88,11 @@ a[href^="mailto:"].icon:before {
 }
 a[href^="tel:"].icon:before {
   content: url("/images/phone.svg");
+  margin-top: 0.2em;
+  margin-right: 0.5em;
+}
+a.icon.whatsapp:before {
+  content: url("/images/whatsapp.svg");
   margin-top: 0.2em;
   margin-right: 0.5em;
 }
