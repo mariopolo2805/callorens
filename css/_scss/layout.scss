@@ -160,12 +160,12 @@ nav .sidenav-trigger {
     }
 
     p {
-      font-size: 1.6rem;
+      font-size: 1.8rem;
       text-decoration: underline;
       margin-bottom: 0.5rem;
 
       @media #{$medium-and-up} {
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
     }
   }
@@ -173,7 +173,7 @@ nav .sidenav-trigger {
   &__item {
     @include display-flex;
     @include flex-direction(row);
-    @include justify-content(space-between);
+    @include justify-content(center);
     margin-bottom: 0.3rem;
 
     span {
