@@ -3,6 +3,8 @@ home:
   start: "Inici"
   title: "Bar Restaurant Ca Llorens"
   subtitle: "La nostra diferència està en les brases"
+  maptitle: "On estem?"
+  mapaddress: "Carrer Mestre Torres 16, 46195 Llombai, València"
 
 lunch:
   title: "Esmorzars"

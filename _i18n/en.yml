@@ -2,6 +2,8 @@ home:
   start: "Start"
   title: "Bar Restaurant Ca Llorens"
   subtitle: "Our difference is in the embers"
+  maptitle: "Where is the restaurant?"
+  mapaddress: "16 Maestro Torres, Llombai (Valencia) 46195"
 
 lunch:
   title: "Lunches"

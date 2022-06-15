@@ -25,3 +25,22 @@
 
 <!-- Exo 2 Font -->
 <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+
+<!-- Maps -->
+<script>
+  function initMap() {
+    var callorens = {lat: 39.27940410198439, lng: -0.5707257151356895};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 16,
+      center: callorens
+    });
+    var marker = new google.maps.Marker({
+      position: callorens,
+      map: map,
+      title: "Ca Llorens"
+    });
+  }
+</script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArBBEqgoRS4NIKBoFzXqM775z5Fw5Znu8&callback=initMap">
+</script>
