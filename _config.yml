@@ -1,14 +1,14 @@
 plugins:
-  - jekyll-assets
   - jekyll-sitemap
   - jekyll-multiple-languages-plugin
 
-exclude:      ['Gemfile', 'Gemfile.lock', 'README.md', 'css', 'js', 'config.ru', 'vendor']
+exclude:      ['Gemfile', 'Gemfile.lock', 'README.md', 'config.ru', 'vendor']
 
 languages:    ["es", "en", "val"]
 
 sass:
   sass_dir:   css/_scss
+  style:      compressed
 
 assets:
   compress:
@@ -38,7 +38,6 @@ assets:
 markdown:     kramdown
 
 # Texts
-
 main:
   title:      'Ca Llorens'
   titleTag:   'Ca Llorens'
