@@ -4,13 +4,13 @@
 <loc>http://localhost:4000/cookies/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/brasas</loc>
+<loc>http://localhost:4000/brasas/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/almuerzos</loc>
+<loc>http://localhost:4000/almuerzos/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/menu.html</loc>
